@@ -129,9 +129,7 @@ func makeRange(min, max int) []int {
 	return a
 }
 
-
-
-
+//This was just a test
 func (g *Game) FindFirstEmpty(c chan *Position) {
 	go func() {
 		defer close(c)

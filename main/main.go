@@ -18,6 +18,7 @@ func main() {
 	fmt.Printf("\nIn total time: %s", time.Now().Sub(initTime))
 }
 
+//This was just a test
 func testingChannels(game * solver.Game) {
 	c := make(chan *solver.Position)
 	game.FindFirstEmpty(c)
